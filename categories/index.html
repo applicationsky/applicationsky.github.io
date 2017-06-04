@@ -1,10 +1,10 @@
 
-  <!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>归档 | O&#39;eaom</title>
+    <title>categories | O&#39;eaom</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="applicationsky">
@@ -13,12 +13,13 @@
     
     <meta name="description" content="mega lands for geeks">
 <meta property="og:type" content="website">
-<meta property="og:title" content="O&#39;eaom">
-<meta property="og:url" content="https://applicationsky.github.io/archives/index.html">
+<meta property="og:title" content="categories">
+<meta property="og:url" content="https://applicationsky.github.io/categories/index.html">
 <meta property="og:site_name" content="O&#39;eaom">
 <meta property="og:description" content="mega lands for geeks">
+<meta property="og:updated_time" content="2017-06-04T00:27:08.134Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="O&#39;eaom">
+<meta name="twitter:title" content="categories">
 <meta name="twitter:description" content="mega lands for geeks">
 
     
@@ -77,48 +78,19 @@
 </div>
       </header>
       <div id="container">
-        
-
+          
 <div class="archive-title" >
-  <h2 class="archive-icon">归档</h2>
-  
-  <div class="archiveslist archive-float clearfix">
-   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">2017 年 06 月</a><span class="archive-list-count">2</span></li></ul>
- </div>
-  
+<h2 class="category-icon">分类</h2>
+
+<a data-src="/categories/Markdown/" href="#Markdown" title="Markdown">Markdown<sup>0</sup></a>
+
+<a data-src="/categories/编程/" href="#编程" title="编程">编程<sup>1</sup></a>
+
 </div>
-<div id="main" class="archive-part clearfix">
-  <div id="archive-page">
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2017/06/03/file1/" title="Markdown基础语法" itemprop="url">
-  
-
-    <time datetime="2017-06-03T14:24:53.000Z" itemprop="datePublished">2017-06-03</time>
-
-
-    <h1 itemprop="name">Markdown基础语法</h1>
-
-  </a>
-</section>
-
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2017/06/03/hello-world/" title="你好" itemprop="url">
-  
-
-    <time datetime="2017-06-03T06:27:32.621Z" itemprop="datePublished">2017-06-03</time>
-
-
-    <h1 itemprop="name">你好</h1>
-
-  </a>
-</section>
-
-
-  </div>
+<div id="main" class="archive-part">
+<div class="all-list-box"></div>
 </div>
+
 
       </div>
       <footer><div id="footer" >
@@ -219,6 +191,24 @@ $(document).ready(function(){
 
 
 
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var list    = $('.archive-title a'),
+      box     = $('.all-list-box'),
+      first   = $('.archive-title a:first-of-type');
+      box.load(first.attr('data-src').toString()+' #archive-page');
+      first.addClass('current');
+  list.each(function(){
+    $(this).click(function(){
+      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
+      box.load(listSrc);
+      list.removeClass('current');
+      $(this).addClass('current');
+     });  
+    });
+  }); 
+</script>
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">

@@ -4,23 +4,27 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>file1 | O&#39;eaom</title>
+    <title>Markdown基础语法 | O&#39;eaom</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="applicationsky">
     
 
     
-    <meta name="description" content="#Standard Markdown ##Strong and Emphasize12*emphasize*   **strong**_emphasize_   __strong__ ##Links and EmailInline:1An [example](http://url.com/ &amp;quot;Title&amp;quot;) Reference-style labels (titles are">
+    <meta name="description" content="本文枚举了Markdown的基础语法">
+<meta name="keywords" content="Markdown">
 <meta property="og:type" content="article">
-<meta property="og:title" content="file1">
+<meta property="og:title" content="Markdown基础语法">
 <meta property="og:url" content="https://applicationsky.github.io/2017/06/03/file1/index.html">
 <meta property="og:site_name" content="O&#39;eaom">
-<meta property="og:description" content="#Standard Markdown ##Strong and Emphasize12*emphasize*   **strong**_emphasize_   __strong__ ##Links and EmailInline:1An [example](http://url.com/ &amp;quot;Title&amp;quot;) Reference-style labels (titles are">
-<meta property="og:updated_time" content="2017-06-03T14:26:46.343Z">
+<meta property="og:description" content="本文枚举了Markdown的基础语法">
+<meta property="og:image" content="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
+<meta property="og:image" content="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
+<meta property="og:updated_time" content="2017-06-04T00:37:05.144Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="file1">
-<meta name="twitter:description" content="#Standard Markdown ##Strong and Emphasize12*emphasize*   **strong**_emphasize_   __strong__ ##Links and EmailInline:1An [example](http://url.com/ &amp;quot;Title&amp;quot;) Reference-style labels (titles are">
+<meta name="twitter:title" content="Markdown基础语法">
+<meta name="twitter:description" content="本文枚举了Markdown的基础语法">
+<meta name="twitter:image" content="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
 
     
     <link rel="alternative" href="/atom.xml" title="O&#39;eaom" type="application/atom+xml">
@@ -56,7 +60,11 @@
 					 
 						<li><a href="/">主页</a></li>
 					
-						<li><a href="/archives">档案</a></li>
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/tags">标签</a></li>
 					
 						<li><a href="/about">关于</a></li>
 					
@@ -80,7 +88,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/06/03/file1/" title="file1" itemprop="url">file1</a>
+      <a href="/2017/06/03/file1/" title="Markdown基础语法" itemprop="url">Markdown基础语法</a>
   </h1>
   <p class="article-author">By
        
@@ -96,32 +104,89 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#加粗和强调"><span class="toc-number">1.</span> <span class="toc-text">加粗和强调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#链接和邮件"><span class="toc-number">2.</span> <span class="toc-text">链接和邮件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图片"><span class="toc-number">3.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#头标题"><span class="toc-number">4.</span> <span class="toc-text">头标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#大标题-1"><span class="toc-number"></span> <span class="toc-text">大标题 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#大标题-2"><span class="toc-number">1.</span> <span class="toc-text">大标题 2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#标题-1"><span class="toc-number"></span> <span class="toc-text">标题 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#标题-2"><span class="toc-number">1.</span> <span class="toc-text">标题 2</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#标题-6"><span class="toc-number">1.0.0.0.1.</span> <span class="toc-text">标题 6</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表"><span class="toc-number">2.</span> <span class="toc-text">列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#引用"><span class="toc-number">3.</span> <span class="toc-text">引用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#在块引用中的大标题"><span class="toc-number">3.0.1.</span> <span class="toc-text">在块引用中的大标题</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#行内代码"><span class="toc-number">4.</span> <span class="toc-text">行内代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码块"><span class="toc-number">5.</span> <span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#横向规则"><span class="toc-number">6.</span> <span class="toc-text">横向规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#强制断行"><span class="toc-number">7.</span> <span class="toc-text">强制断行</span></a></li></ol>
 		
 		</div>
 		
-		<p>#Standard Markdown</p>
-<p>##Strong and Emphasize<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">*emphasize*   **strong**</div><div class="line">_emphasize_   __strong__</div></pre></td></tr></table></figure></p>
-<p>##Links and Email<br>Inline:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">An [example](http://url.com/ &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
-<p>Reference-style labels (titles are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">An [example][id]. Then, anywhere</div><div class="line">else in the doc, define the link:</div><div class="line"></div><div class="line">  [id]: http://example.com/  &quot;Title&quot;</div></pre></td></tr></table></figure></p>
-<p>Email:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">An email &lt;example@example.com&gt; link.</div></pre></td></tr></table></figure></p>
-<p>##Images<br>Inline (titles are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![alt text](/path/img.jpg &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
-<p>Reference-style:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">![alt text][id]</div><div class="line"></div><div class="line">[id]: /url/to/img.jpg &quot;Title&quot;</div></pre></td></tr></table></figure></p>
-<p>##Headers<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Setext-style:</div><div class="line"></div><div class="line">Header 1</div><div class="line">========</div><div class="line"></div><div class="line">Header 2</div><div class="line">--------</div></pre></td></tr></table></figure></p>
-<p>atx-style (closing #’s are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Header 1 #</div><div class="line"></div><div class="line">## Header 2 ##</div><div class="line"></div><div class="line">###### Header 6</div></pre></td></tr></table></figure></p>
-<p>##Lists<br>Ordered, without paragraphs:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1.  Foo</div><div class="line">2.  Bar</div></pre></td></tr></table></figure></p>
-<p>Unordered, with paragraphs:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">*   A list item.</div><div class="line"></div><div class="line">    With multiple paragraphs.</div><div class="line"></div><div class="line">*   Bar</div></pre></td></tr></table></figure></p>
-<p>You can nest them:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">*   Abacus</div><div class="line">    * answer</div><div class="line">*   Bubbles</div><div class="line">    1.  bunk</div><div class="line">    2.  bupkis</div><div class="line">        * BELITTLER</div><div class="line">    3. burper</div><div class="line">*   Cunning</div></pre></td></tr></table></figure></p>
-<p>##Blockquotes<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; Email-style angle brackets</div><div class="line">&gt; are used for blockquotes.</div><div class="line"></div><div class="line">&gt; &gt; And, they can be nested.</div><div class="line"></div><div class="line">&gt; #### Headers in blockquotes</div><div class="line">&gt; </div><div class="line">&gt; * You can quote a list.</div><div class="line">&gt; * Etc.</div></pre></td></tr></table></figure></p>
-<p>##Inline Code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">`&lt;code&gt;` spans are delimited</div><div class="line">by backticks.</div><div class="line"></div><div class="line">You can include literal backticks</div><div class="line">like `` `this` ``.</div></pre></td></tr></table></figure></p>
-<p>##Block Code<br>Indent every line of a code block by at least 4 spaces or 1 tab.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">This is a normal paragraph.</div><div class="line"></div><div class="line">    This is a preformatted</div><div class="line">    code block.</div></pre></td></tr></table></figure></p>
-<p>##Horizontal Rules<br>Three or more dashes or asterisks:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line"></div><div class="line">* * *</div><div class="line"></div><div class="line">- - - -</div></pre></td></tr></table></figure></p>
-<p>##Hard Line Breaks<br>End a line with two or more spaces:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Roses are red,   </div><div class="line">Violets are blue.</div></pre></td></tr></table></figure></p>
+		<h2 id="加粗和强调"><a href="#加粗和强调" class="headerlink" title="加粗和强调"></a>加粗和强调</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">*倾斜*   **加粗**</div><div class="line">_倾斜_   __加粗__</div></pre></td></tr></table></figure>
+<p><em>倾斜</em>   <strong>加粗</strong><br><em>倾斜</em>   <strong>加粗</strong></p>
+<h2 id="链接和邮件"><a href="#链接和邮件" class="headerlink" title="链接和邮件"></a>链接和邮件</h2><p>行内:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">一个 [示例的链接](http://baidu.com/ &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
+<p>一个 <a href="http://baidu.com/" title="Title" target="_blank" rel="external">示例的链接</a></p>
+<p>引用式标签 (标签是可选的):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">一个 [示例的][id]. 并且，在文档的任何地方，定义链接:</div><div class="line"></div><div class="line">  [id]: http://baidu.com/  &quot;Title&quot;</div></pre></td></tr></table></figure></p>
+<p>一个 <a href="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" title="百度的图标" target="_blank" rel="external">示例的</a>. 并且，在文档的任何地方，定义链接:</p>
+<p>邮件:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">一个示例的 email &lt;example@example.com&gt; 地址.</div></pre></td></tr></table></figure></p>
+<p>一个示例的 email <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#101;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#101;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#x2e;&#x63;&#111;&#x6d;</a> 地址.</p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>行内 (标题可选):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![百度的图标](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png &quot;百度的图标&quot;)</div></pre></td></tr></table></figure></p>
+<p><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="百度的图标" title="百度的图标"><br>引用式:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">![百度的图标][id]</div><div class="line"></div><div class="line">[id]: https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png &quot;百度的图标&quot;</div></pre></td></tr></table></figure></p>
+<p><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png" alt="百度的图标" title="百度的图标"></p>
+<h2 id="头标题"><a href="#头标题" class="headerlink" title="头标题"></a>头标题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Setext(增强文本结构)样式:</div><div class="line"></div><div class="line">大标题 1</div><div class="line">========</div><div class="line"></div><div class="line">大标题 2</div><div class="line">--------</div></pre></td></tr></table></figure>
+<p>Setext(增强文本结构)样式:</p>
+<h1 id="大标题-1"><a href="#大标题-1" class="headerlink" title="大标题 1"></a>大标题 1</h1><h2 id="大标题-2"><a href="#大标题-2" class="headerlink" title="大标题 2"></a>大标题 2</h2><p>atx-style (反向的#号是可选的):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 标题 1 #</div><div class="line"></div><div class="line">## 标题 2 ##</div><div class="line"></div><div class="line">###### 标题 6</div></pre></td></tr></table></figure></p>
+<h1 id="标题-1"><a href="#标题-1" class="headerlink" title="标题 1"></a>标题 1</h1><h2 id="标题-2"><a href="#标题-2" class="headerlink" title="标题 2"></a>标题 2</h2><h6 id="标题-6"><a href="#标题-6" class="headerlink" title="标题 6"></a>标题 6</h6><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>有序的、不分段的:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1.  Foo</div><div class="line">2.  Bar</div></pre></td></tr></table></figure></p>
+<ol>
+<li>Foo</li>
+<li>Bar<br>无序的，有段落之分的:<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">*   A list item.</div><div class="line"></div><div class="line">    With multiple paragraphs.</div><div class="line"></div><div class="line">*   Bar</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<ul>
+<li><p>A list item.</p>
+<p>  With multiple paragraphs.</p>
+</li>
+<li><p>Bar<br>你可以嵌套它们:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">*   Abacus</div><div class="line">    * answer</div><div class="line">*   Bubbles</div><div class="line">    1.  bunk</div><div class="line">    2.  bupkis</div><div class="line">        * BELITTLER</div><div class="line">    3. burper</div><div class="line">*   Cunning</div></pre></td></tr></table></figure>
+</li>
+<li><p>Abacus</p>
+<ul>
+<li>answer</li>
+</ul>
+</li>
+<li>Bubbles<ol>
+<li>bunk</li>
+<li>bupkis<ul>
+<li>BELITTLER</li>
+</ul>
+</li>
+<li>burper</li>
+</ol>
+</li>
+<li>Cunning<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; 电子邮件样式的</div><div class="line">&gt; 尖括号用于块引用。</div><div class="line"></div><div class="line">&gt; &gt; 而其，它们还可以嵌套起来.</div><div class="line"></div><div class="line">&gt; #### 在块引用中的大标题</div><div class="line">&gt; </div><div class="line">&gt; * 你可以引用一个列表</div><div class="line">&gt; * 等等...</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>电子邮件样式的<br>尖括号用于块引用。</p>
+<blockquote>
+<p>而其，它们还可以嵌套起来.</p>
+</blockquote>
+<h4 id="在块引用中的大标题"><a href="#在块引用中的大标题" class="headerlink" title="在块引用中的大标题"></a>在块引用中的大标题</h4><ul>
+<li>你可以引用一个列表</li>
+<li>等等…</li>
+</ul>
+</blockquote>
+<h2 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">`代码` 被限制在反引号之间.</div><div class="line"></div><div class="line">你可以包括字面的反引号</div><div class="line">就像 `` `这样` ``.</div></pre></td></tr></table></figure>
+<p><code>代码</code> 被限制在反引号之间.</p>
+<p>你可以包括字面的反引号<br>就像 <code>`这样` </code>.</p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>将代码块的每一行缩进至少4个空格或1个tab。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">这是一个正常的段落.</div><div class="line"></div><div class="line">        这是一个预格式化的</div><div class="line">        代码块.</div></pre></td></tr></table></figure></p>
+<h2 id="横向规则"><a href="#横向规则" class="headerlink" title="横向规则"></a>横向规则</h2><p>三个或更多破折号或星号<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line"></div><div class="line">* * *</div><div class="line"></div><div class="line">- - - -</div></pre></td></tr></table></figure></p>
+<hr>
+<hr>
+<hr>
+<h2 id="强制断行"><a href="#强制断行" class="headerlink" title="强制断行"></a>强制断行</h2><p>结束一行的时候加上至少两个空格:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">玫瑰是红色的，  </div><div class="line">紫罗兰是蓝色的</div></pre></td></tr></table></figure></p>
+<p>玫瑰是红色的，<br>紫罗兰是蓝色的</p>
   
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Markdown/">Markdown</a>
+  </div>
 
 </div>
 
@@ -129,7 +194,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="https://applicationsky.github.io/2017/06/03/file1/" data-title="file1 | O&#39;eaom" data-tsina="null" class="share clearfix">
+	  <div data-url="https://applicationsky.github.io/2017/06/03/file1/" data-title="Markdown基础语法 | O&#39;eaom" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -161,7 +226,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#加粗和强调"><span class="toc-number">1.</span> <span class="toc-text">加粗和强调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#链接和邮件"><span class="toc-number">2.</span> <span class="toc-text">链接和邮件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图片"><span class="toc-number">3.</span> <span class="toc-text">图片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#头标题"><span class="toc-number">4.</span> <span class="toc-text">头标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#大标题-1"><span class="toc-number"></span> <span class="toc-text">大标题 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#大标题-2"><span class="toc-number">1.</span> <span class="toc-text">大标题 2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#标题-1"><span class="toc-number"></span> <span class="toc-text">标题 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#标题-2"><span class="toc-number">1.</span> <span class="toc-text">标题 2</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#标题-6"><span class="toc-number">1.0.0.0.1.</span> <span class="toc-text">标题 6</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表"><span class="toc-number">2.</span> <span class="toc-text">列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#引用"><span class="toc-number">3.</span> <span class="toc-text">引用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#在块引用中的大标题"><span class="toc-number">3.0.1.</span> <span class="toc-text">在块引用中的大标题</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#行内代码"><span class="toc-number">4.</span> <span class="toc-text">行内代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码块"><span class="toc-number">5.</span> <span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#横向规则"><span class="toc-number">6.</span> <span class="toc-text">横向规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#强制断行"><span class="toc-number">7.</span> <span class="toc-text">强制断行</span></a></li></ol>
  
   </div>
 
@@ -179,8 +244,32 @@
 
 
   
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+		
+		  
+			<li><a href="/categories/编程/" title="编程">编程<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
 
   
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
 
   <div class="linkslist">
   <p class="asidetitle">友情链接</p>
@@ -215,6 +304,13 @@
 
 
   
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
+    </div>
+  </div>
+
 
 </aside>
 </div>
@@ -427,7 +523,7 @@ $(document).ready(function(){
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  hm.src = "//hm.baidu.com/hm.js?7c4fb8f62d0ec88e17af196430cf7db6";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();

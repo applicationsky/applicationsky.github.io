@@ -55,7 +55,11 @@
 					 
 						<li><a href="/">主页</a></li>
 					
-						<li><a href="/archives">档案</a></li>
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/tags">标签</a></li>
 					
 						<li><a href="/about">关于</a></li>
 					
@@ -75,116 +79,40 @@
     <div id="container">
       <div id="main">
 
-   
+  
+<section class="post" itemscope itemprop="blogitem">
+  
+    <a href="/2017/06/03/file1/" title="Markdown基础语法" itemprop="url">
+  
+    <h1 itemprop="name">Markdown基础语法</h1>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+     
+      <p itemprop="description" >本文枚举了Markdown的基础语法</p>
+      
     
-      <a href="/2017/06/03/file1/" title="file1" itemprop="url">file1</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="applicationsky" target="_blank" itemprop="author">applicationsky</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-03T14:24:53.000Z" itemprop="datePublished"> 发表于 2017-06-03</time>
+    <time datetime="2017-06-03T14:24:53.000Z" itemprop="datePublished">2017-06-03</time>
+  </a>
+</section>
+
+
+
+
+
+
+  
+<section class="post" itemscope itemprop="blogitem">
+  
+    <a href="/2017/06/03/hello-world/" title="你好" itemprop="url">
+  
+    <h1 itemprop="name">你好</h1>
     
-  </p>
-</header>
-    <div class="article-content">
+     
+           <p itemprop="description" >首页的介绍暂时还没有 哈哈 都怪小主太懒了&amp;gt;_&amp;lt;</p>
         
-        <p>#Standard Markdown</p>
-<p>##Strong and Emphasize<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">*emphasize*   **strong**</div><div class="line">_emphasize_   __strong__</div></pre></td></tr></table></figure></p>
-<p>##Links and Email<br>Inline:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">An [example](http://url.com/ &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
-<p>Reference-style labels (titles are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">An [example][id]. Then, anywhere</div><div class="line">else in the doc, define the link:</div><div class="line"></div><div class="line">  [id]: http://example.com/  &quot;Title&quot;</div></pre></td></tr></table></figure></p>
-<p>Email:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">An email &lt;example@example.com&gt; link.</div></pre></td></tr></table></figure></p>
-<p>##Images<br>Inline (titles are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![alt text](/path/img.jpg &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
-<p>Reference-style:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">![alt text][id]</div><div class="line"></div><div class="line">[id]: /url/to/img.jpg &quot;Title&quot;</div></pre></td></tr></table></figure></p>
-<p>##Headers<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Setext-style:</div><div class="line"></div><div class="line">Header 1</div><div class="line">========</div><div class="line"></div><div class="line">Header 2</div><div class="line">--------</div></pre></td></tr></table></figure></p>
-<p>atx-style (closing #’s are optional):<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Header 1 #</div><div class="line"></div><div class="line">## Header 2 ##</div><div class="line"></div><div class="line">###### Header 6</div></pre></td></tr></table></figure></p>
-<p>##Lists<br>Ordered, without paragraphs:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1.  Foo</div><div class="line">2.  Bar</div></pre></td></tr></table></figure></p>
-<p>Unordered, with paragraphs:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">*   A list item.</div><div class="line"></div><div class="line">    With multiple paragraphs.</div><div class="line"></div><div class="line">*   Bar</div></pre></td></tr></table></figure></p>
-<p>You can nest them:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">*   Abacus</div><div class="line">    * answer</div><div class="line">*   Bubbles</div><div class="line">    1.  bunk</div><div class="line">    2.  bupkis</div><div class="line">        * BELITTLER</div><div class="line">    3. burper</div><div class="line">*   Cunning</div></pre></td></tr></table></figure></p>
-<p>##Blockquotes<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; Email-style angle brackets</div><div class="line">&gt; are used for blockquotes.</div><div class="line"></div><div class="line">&gt; &gt; And, they can be nested.</div><div class="line"></div><div class="line">&gt; #### Headers in blockquotes</div><div class="line">&gt; </div><div class="line">&gt; * You can quote a list.</div><div class="line">&gt; * Etc.</div></pre></td></tr></table></figure></p>
-<p>##Inline Code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">`&lt;code&gt;` spans are delimited</div><div class="line">by backticks.</div><div class="line"></div><div class="line">You can include literal backticks</div><div class="line">like `` `this` ``.</div></pre></td></tr></table></figure></p>
-<p>##Block Code<br>Indent every line of a code block by at least 4 spaces or 1 tab.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">This is a normal paragraph.</div><div class="line"></div><div class="line">    This is a preformatted</div><div class="line">    code block.</div></pre></td></tr></table></figure></p>
-<p>##Horizontal Rules<br>Three or more dashes or asterisks:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line"></div><div class="line">* * *</div><div class="line"></div><div class="line">- - - -</div></pre></td></tr></table></figure></p>
-<p>##Hard Line Breaks<br>End a line with two or more spaces:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Roses are red,   </div><div class="line">Violets are blue.</div></pre></td></tr></table></figure></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/06/03/hello-world/" title="你好" itemprop="url">你好</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="applicationsky" target="_blank" itemprop="author">applicationsky</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-03T06:27:32.621Z" itemprop="datePublished"> 发表于 2017-06-03</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>首页的介绍暂时还没有 哈哈 都怪小主太懒了&gt;_&lt;</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
+    <time datetime="2017-06-03T06:27:32.621Z" itemprop="datePublished">2017-06-03</time>
+  </a>
+</section>
 
 
 
@@ -209,8 +137,32 @@
 
 
   
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+		
+		  
+			<li><a href="/categories/编程/" title="编程">编程<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
 
   
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
 
   <div class="linkslist">
   <p class="asidetitle">友情链接</p>
@@ -245,6 +197,13 @@
 
 
   
+  <div class="tagcloudlist">
+    <p class="asidetitle">标签云</p>
+    <div class="tagcloudlist clearfix">
+       <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
+    </div>
+  </div>
+
 
 </aside>
 </div>
@@ -380,7 +339,7 @@ $(document).ready(function(){
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  hm.src = "//hm.baidu.com/hm.js?7c4fb8f62d0ec88e17af196430cf7db6";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
