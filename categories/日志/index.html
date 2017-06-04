@@ -1,10 +1,10 @@
 
- <!DOCTYPE HTML>
+  <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>categories | O&#39;eaom</title>
+    <title>分类 : 日志 | O&#39;eaom</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="applicationsky">
@@ -13,13 +13,12 @@
     
     <meta name="description" content="mega lands for geeks">
 <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="https://applicationsky.github.io/categories/index.html">
+<meta property="og:title" content="O&#39;eaom">
+<meta property="og:url" content="https://applicationsky.github.io/categories/日志/index.html">
 <meta property="og:site_name" content="O&#39;eaom">
 <meta property="og:description" content="mega lands for geeks">
-<meta property="og:updated_time" content="2017-06-04T00:27:08.134Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="O&#39;eaom">
 <meta name="twitter:description" content="mega lands for geeks">
 
     
@@ -77,19 +76,31 @@
 </div>
       </header>
       <div id="container">
-          
+        
+
 <div class="archive-title" >
-<h2 class="category-icon">分类</h2>
-
-<a data-src="/categories/日志/" href="#日志" title="日志">日志<sup>1</sup></a>
-
-<a data-src="/categories/编程/" href="#编程" title="编程">编程<sup>1</sup></a>
-
+  <h2 class="category-icon">日志</h2>
+  
 </div>
-<div id="main" class="archive-part">
-<div class="all-list-box"></div>
-</div>
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
 
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2017/06/04/xiyangyang/" title="大话喜羊羊与灰太狼" itemprop="url">
+  
+
+    <time datetime="2017-06-04T01:27:47.000Z" itemprop="datePublished">2017-06-04</time>
+
+
+    <h1 itemprop="name">大话喜羊羊与灰太狼</h1>
+
+  </a>
+</section>
+
+
+  </div>
+</div>
 
       </div>
       <footer><div id="footer" >
@@ -190,24 +201,6 @@ $(document).ready(function(){
 
 
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var list    = $('.archive-title a'),
-      box     = $('.all-list-box'),
-      first   = $('.archive-title a:first-of-type');
-      box.load(first.attr('data-src').toString()+' #archive-page');
-      first.addClass('current');
-  list.each(function(){
-    $(this).click(function(){
-      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
-      box.load(listSrc);
-      list.removeClass('current');
-      $(this).addClass('current');
-     });  
-    });
-  }); 
-</script>
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
